@@ -1,0 +1,47 @@
+[
+  {
+    "Id": 1,
+    "FullName": "Paracetamol 500mg",
+    "Notes": "For fever and pain",
+    "ExpiryDate": "2026-12-15T00:00:00",
+    "Quantity": 25,
+    "Price": 35.50,
+    "Brand": "ABC Pharma"
+  },
+  {
+    "Id": 2,
+    "FullName": "Amoxicillin 250mg",
+    "Notes": "Antibiotic",
+    "ExpiryDate": "2026-09-05T00:00:00",
+    "Quantity": 18,
+    "Price": 85.00,
+    "Brand": "HealthCare"
+  },
+  {
+    "Id": 3,
+    "FullName": "Cetirizine 10mg",
+    "Notes": "For allergy symptoms",
+    "ExpiryDate": "2027-03-20T00:00:00",
+    "Quantity": 40,
+    "Price": 25.00,
+    "Brand": "MediCare"
+  },
+  {
+    "Id": 4,
+    "FullName": "Crocine",
+    "Notes": "Pain Relief",
+    "ExpiryDate": "2026-10-29T00:00:00",
+    "Quantity": 40,
+    "Price": 30,
+    "Brand": "Cipla"
+  },
+  {
+    "Id": 5,
+    "FullName": "D3",
+    "Notes": "Calcium",
+    "ExpiryDate": "2027-02-18T00:00:00",
+    "Quantity": 4,
+    "Price": 200,
+    "Brand": "ABC Pharma"
+  }
+]
