@@ -30,27 +30,18 @@
     "Id": 4,
     "FullName": "Crocine",
     "Notes": "Pain Relief",
-    "ExpiryDate": "2026-08-29T00:00:00",
-    "Quantity": 20,
-    "Price": 50,
-    "Brand": "ABC pharma"
+    "ExpiryDate": "2026-10-29T00:00:00",
+    "Quantity": 40,
+    "Price": 30,
+    "Brand": "Cipla"
   },
   {
     "Id": 5,
     "FullName": "D3",
     "Notes": "Calcium",
-    "ExpiryDate": "2026-08-27T00:00:00",
-    "Quantity": 19,
+    "ExpiryDate": "2027-02-18T00:00:00",
+    "Quantity": 4,
     "Price": 200,
-    "Brand": "Cipla"
-  },
-  {
-    "Id": 6,
-    "FullName": "abc",
-    "Notes": "abc",
-    "ExpiryDate": "2026-12-17T00:00:00",
-    "Quantity": 2,
-    "Price": 100,
-    "Brand": "abc"
+    "Brand": "ABC Pharma"
   }
 ]

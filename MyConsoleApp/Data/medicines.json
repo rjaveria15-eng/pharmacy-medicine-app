@@ -4,7 +4,7 @@
     "FullName": "Paracetamol 500mg",
     "Notes": "For fever and pain",
     "ExpiryDate": "2026-12-15T00:00:00",
-    "Quantity": 25,
+    "Quantity": 23,
     "Price": 35.50,
     "Brand": "ABC Pharma"
   },
@@ -22,7 +22,7 @@
     "FullName": "Cetirizine 10mg",
     "Notes": "For allergy symptoms",
     "ExpiryDate": "2027-03-20T00:00:00",
-    "Quantity": 40,
+    "Quantity": 37,
     "Price": 25.00,
     "Brand": "MediCare"
   },

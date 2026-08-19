@@ -33,3 +33,4 @@
 /workspaces/pharmacy-medicine-app/MyConsoleApp/obj/Debug/net10.0/MyConsoleApp.genruntimeconfig.cache
 /workspaces/pharmacy-medicine-app/MyConsoleApp/obj/Debug/net10.0/ref/MyConsoleApp.dll
 /workspaces/pharmacy-medicine-app/MyConsoleApp/bin/Debug/net10.0/Data/medicines.json
+/workspaces/pharmacy-medicine-app/MyConsoleApp/bin/Debug/net10.0/Data/sales.json

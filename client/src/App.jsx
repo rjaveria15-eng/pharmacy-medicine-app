@@ -1,9 +1,11 @@
 import { useEffect, useState } from "react";
 import "./App.css";
+import  useSale from "./hooks/useSale"
 
 function App() {
   const [medicines, setMedicines] = useState([]);
   const [search, setSearch] = useState("");
+  
 
   const [form, setForm] = useState({
     fullName: "",
@@ -20,6 +22,8 @@ function App() {
       .then((data) => setMedicines(data))
       .catch((error) => console.error("Error loading medicines:", error));
   };
+
+  const {sellMedicine, loading} = useSale(loadMedicines)
 
   useEffect(() => {
     loadMedicines();
@@ -166,6 +170,7 @@ function App() {
             <th>Quantity</th>
             <th>Price</th>
             <th>Brand</th>
+            <th>Action</th>
           </tr>
         </thead>
 
@@ -189,6 +194,11 @@ function App() {
                 <td>{medicine.quantity}</td>
                 <td>{Number(medicine.price).toFixed(2)}</td>
                 <td>{medicine.brand}</td>
+                <td>
+                  <button className="sell-button" onClick={()=>sellMedicine(medicine)} disabled={loading}>
+                    Sell
+                  </button>
+                </td>
               </tr>
             );
           })}
